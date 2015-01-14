@@ -1,16 +1,16 @@
-# i2x Client
+# ARiiP Client
 
-**i2x** client-side agent. Ruby script to launch **i2x** distributed agents locally.
+**ARiiP** client-side agent. Ruby script to launch **ARiiP** distributed agents locally.
 
 ## Usage
 
-Add the _i2x_ gem:
+Add the _arii_ gem:
 
-    gem install i2x
+    gem install arii
 
 And then execute:
 
-    $ ruby i2x.rb <config_file>
+    $ ruby arii.rb <config_file>
 
 ## Configuration
 
@@ -28,4 +28,4 @@ To perform scheduled checks, enable running this client as a cron job (or simila
 
 ## Changelog
 
-- 2014-01-21: release 0.1
+- 2015-01-14: Reload as ARiiP client.

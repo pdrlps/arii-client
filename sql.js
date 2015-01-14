@@ -1,6 +1,6 @@
 {
     "server": {
-        "name": "i2x",
+        "name": "ariip",
         "host": "http://localhost:3000/",
         "api_key": "611a390a93d91c4296a339742dfe63c7"
     },
@@ -10,7 +10,7 @@
         "schedule": "2d",
         "seed": {
             "publisher": "csv",
-            "uri": "http://pedrolopes.net/i2x/log.csv",
+            "uri": "http://pedrolopes.net/arii/log.csv",
             "headers": true,
             "delimiter": ",",
             "selectors": [{

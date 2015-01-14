@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-require 'i2x'
+require 'arii'
 require 'JSON'
 require 'logger'
 
 if ARGV[0].nil? then
-	p "[i2x] Please provide a configuration file."
+	p "[ARiiP] Please provide a configuration file."
 else
 	begin
 		# create local log
@@ -17,7 +17,7 @@ else
 		# start processing
 		c.process
 	rescue Exception => e
-		p "[i2x] unable to process i2x: #{e}"
+		p "[ARiiP] unable to process ARiiP: #{e}"
 	end
 end
 

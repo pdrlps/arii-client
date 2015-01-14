@@ -1,6 +1,6 @@
 {
 	"server": {
-		"name": "i2x",
+		"name": "arii",
 		"host": "http://localhost:3000/",
 		"api_key": "611a390a93d91c4296a339742dfe63c7"
 	},
