@@ -20,12 +20,8 @@ Check the `csv.js`, `json.js`, `sql.js` and `xml.js` files for sample agent conf
 
 To perform scheduled checks, enable running this client as a cron job (or similar).
 
-#### Linux
-
-#### OS X
-
-#### Windows
-
 ## Changelog
+
+- 2015-01-20: Bugfixes for `arii gem.
 
 - 2015-01-14: Reload as ARiiP client.

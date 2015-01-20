@@ -12,7 +12,7 @@ else
 		#logger = Logger.new File.new("#{Dir.pwd}/#{ARGV[0]}.log", "w+")	# log to file
 		logger = Logger.new $stdout											# log to STDOUT
 		# create new I2X client
-		c = I2X::Client.new JSON.parse(IO.read(ARGV[0]), {:symbolize_names => true}), logger
+		c = ARII::Client.new JSON.parse(IO.read(ARGV[0]), {:symbolize_names => true}), logger
 
 		# start processing
 		c.process

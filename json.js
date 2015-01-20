@@ -1,8 +1,8 @@
 {
 	"server": {
 		"name": "ariip",
-		"host": "http://localhost:3000/",
-		"api_key": "611a390a93d91c4296a339742dfe63c7"
+		"host": "http://ariip.com/",
+		"api_key": "7714864c29f8b9749b64eefea94def8a"
 	},
 	"agents": [{
 		"identifier": "json",

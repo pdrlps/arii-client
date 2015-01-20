@@ -1,8 +1,8 @@
 {
     "server": {
         "name": "ariip",
-        "host": "http://localhost:3000/",
-        "api_key": "611a390a93d91c4296a339742dfe63c7"
+        "host": "http://ariip.com/",
+        "api_key": "7714864c29f8b9749b64eefea94def8a"
     },
     "agents": [{
         "identifier": "sql",
@@ -10,7 +10,7 @@
         "schedule": "2d",
         "seed": {
             "publisher": "csv",
-            "uri": "http://pedrolopes.net/arii/log.csv",
+            "uri": "http://ariip.com/log.csv",
             "headers": true,
             "delimiter": ",",
             "selectors": [{
@@ -24,14 +24,14 @@
             "username": "root",
             "password": "telematica",
             "database": "i2x",
-            "query": "SELECT * FROM variants WHERE gene LIKE '%{gene}';",
+            "query": "SELECT * FROM content WHERE content LIKE '%{content}';",
             "cache": "id",
             "selectors": [{
-                "refseq": "refseq"
+                "refseq": "title"
             }, {
-                "variant": "variant"
+                "variant": "content"
             }, {
-                "locus": "gene"
+                "locus": "url"
             }]
         }
     }]
